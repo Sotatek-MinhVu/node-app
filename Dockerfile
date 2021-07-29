@@ -1,4 +1,5 @@
-FROM node:carbon
+# FROM node:carbon
+FROM 314870164407.dkr.ecr.us-west-2.amazonaws.com/base:node-12.x
 
 
 # Create app directory
