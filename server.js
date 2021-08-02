@@ -10,7 +10,7 @@ const HOST = '0.0.0.0';
 const app = express();
 app.get('/', (req, res) => {
   // res.send('<h1 style="color:DodgerBlue;">Pace Art App ok - version-9!!</h1> \n');
-  res.send('<h1 style="color:red;">Pace Art App FF - version-100!!</h1> \n');
+  res.send('<h1 style="color:red;">Pace Art App - version-100!!</h1> \n');
 });
 
 app.listen(PORT, HOST);
