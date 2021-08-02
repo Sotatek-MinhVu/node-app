@@ -9,8 +9,8 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('<h1 style="color:DodgerBlue;">Pace Art App ok - version-9!!</h1> \n');
-  // res.send('<h1 style="color:red;">Pace Art App OK Fi - version-100!!</h1> \n');
+  // res.send('<h1 style="color:DodgerBlue;">Pace Art App ok - version-9!!</h1> \n');
+  res.send('<h1 style="color:red;">Pace Art App OK Fi - version-100!!</h1> \n');
 });
 
 app.listen(PORT, HOST);
